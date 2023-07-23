@@ -1,0 +1,35 @@
+<!--Código HTML para o progema cálculo de peso ideal-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="shortcut icon" href="./img/livrojs.png" type="image/x-icon">
+        <title>Exemplo 4.2</title>
+    </head>
+    <body>
+        <img src="./img/ex4_2.jpg" alt="Imagem de uma balança">
+        <h1>Programa Cálculo do Peso Ideal</h1>
+        <form>
+            <p>Nome:
+                <input type="text" id="inNome" required>
+            </p>
+            <p>Sexo:
+                <input type="radio" id="inMasculino" name="sexo" required>
+                <label for="inMasculino">Masculino</label>
+
+                <input type="radio" id="inFeminino" name="sexo" required>
+                <label for="inFeminino">Feminino</label>
+            </p>
+            <p>Altura:
+                <input type="text" id="inAltura" required>
+            </p>
+            <input type="submit" value="Calcular Peso Ideal">
+            <input type="reset" value="Limpar Campos">
+        </form>
+        <h3></h3>
+
+        <script src="./js/ex4_2.js"></script>
+    </body>
+</html>
