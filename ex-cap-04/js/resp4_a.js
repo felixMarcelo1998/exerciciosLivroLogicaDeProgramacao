@@ -5,11 +5,16 @@ const resp = document.querySelector("h3");
 frm.addEventListener("submit", (e) => {
     const numero = Number(frm.inNumero.value);
     
-    if(numero % 2 == 0) {
-        resp.innerText = `${numero} é Par`;
-    } else {
-        resp.innerText = `${numero} é Ímpar`;
-    };
+    const parImpar = numero % 2 == 0 ? "Par" : "Ímpar";
+    
+    // let parImpar;
+    // if(numero % 2 == 0) {
+    //     parImpar = "Par";
+    // } else {
+    //     parImpar = "Ímpar";
+    // };
+
+    resp.innerText = `${numero} é ${parImpar}`;
 
     e.preventDefault();
 });
