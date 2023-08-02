@@ -1,0 +1,32 @@
+<!--Uso dos comandos break e continue em um laço de repetição-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 5.4</title>
+</head>
+<body>
+    <script>
+        alert("Digite 0 para sair");
+        do {
+            const num = Number(prompt("Número: ")) //lê o número
+            if(num == 0 || isNaN(num)) {
+                const sair = confirm("Confirma saída?");  //solicita confirmação do usuário
+                if(sair) {
+                    break; // sai da repetição
+                } else {
+                    continue; // volta ao inicio do laço
+                }
+            }
+            if (num % 2 == 0) {
+                alert(`O dobro de ${num} é: ${num * 2}`);
+            } else {
+                alert(`O tríplo de ${num} é: ${num * 3}`);
+            }
+        } while (true);
+        alert("Bye, Bye...");
+    </script>
+    
+</body>
+</html>
