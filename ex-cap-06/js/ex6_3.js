@@ -106,7 +106,7 @@ frm.btFiltrar.addEventListener("click", () => {
 
     const carrosFilter = carros.filter(carro => carro.preco <= maximo);
     if(carrosFilter.length == 0) {
-        alert("Não há carros nessa faixa de preco ou inferior!!!");
+        alert("Não há carros nessa faixa de preço ou inferior!!!");
         return;
     };
 
