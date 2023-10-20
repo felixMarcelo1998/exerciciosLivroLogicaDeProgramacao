@@ -14,10 +14,9 @@ do {
     console.log("-".repeat(40));
 
 } while(true)
-
+ 
 const maior = alunos.reduce((acumulador, aluno) => Math.max(acumulador, aluno.nota), 0);
 console.log(`A maior nota da turma foi: ${maior}`);
-
 
 if(maior >= 7) {
     const destaques = alunos.filter(aluno => aluno.nota == maior);
@@ -29,9 +28,3 @@ if(maior >= 7) {
 } else {
     console.log("Não há alunos em destaque na turma!");
 };
-
-
-
-
-
-
