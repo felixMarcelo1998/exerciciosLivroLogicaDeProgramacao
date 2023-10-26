@@ -32,8 +32,3 @@ if(saques.length != 0) {
 } else {
     console.log(`Não há saques válidos reguistrados\n${"-".repeat(30)}\nSaques inválidos: ${saqueInvalido}`);
 };
-
-
-
-
-
