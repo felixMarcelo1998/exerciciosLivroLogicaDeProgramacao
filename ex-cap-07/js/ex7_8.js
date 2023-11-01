@@ -61,7 +61,6 @@ frm.addEventListener("submit", (e) => {
     let multa = 0;
     let juros = 0;
 
-    
     if(atraso > 0) {
         const dias = atraso / 86400000;
         multa += valor * TAXA_MULTA;
