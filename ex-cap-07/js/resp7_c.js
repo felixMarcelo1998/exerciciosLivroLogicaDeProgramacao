@@ -29,7 +29,7 @@ frm.addEventListener("submit", (e) => {
     const diaLimFormt = diaLimit < 10 ? "0" + diaLimit : diaLimit;
     const mesLimFormt = mesLimit < 10 ? "0" + mesLimit : mesLimit;
 
-    if(diasAtraso <= 90) {
+    if(diasAtraso < 1) {
         resp.innerText = `Data Limite para Pagamento com Desconto: ${diaLimFormt}/${mesLimFormt}/${anoLimit}\n`;
         resp.innerText += `Valor com Desconto R$: ${(valor * 0.80).toFixed(2)}\n`;
     } else {
