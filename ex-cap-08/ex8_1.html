@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 8.1</title>
+</head>
+<body>
+    <script>
+        const situacao = (nota, media = 7) => { // media recebe um valor default(por falta)
+            if(nota >= media) {
+                alert("Aprovado");
+            } else {
+                alert("Reprovado");
+            };
+        };
+
+        const prova1 = Number(prompt("Qual Nota: "));
+
+        //situacao(prova1, 7); //chama a função situacao passando 2 parâmetros
+        situacao(prova1); //chama a função situacao passando 1 parâmetro (media está como default)
+
+    </script>
+    
+</body>
+</html>
