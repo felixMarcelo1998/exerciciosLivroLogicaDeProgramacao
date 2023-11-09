@@ -1,0 +1,34 @@
+<!--Programa Revenda Avenida - Promoção-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="shortcut icon" href="../ex-cap-04/img/livrojs.png" type="image/x-icon">
+        <title>Exemplo 8.2</title>
+    </head>
+    <body>
+        <img src="../ex-cap-04/img/exerc.jpg" alt="Exercício" class="normal">
+        <h1>Programa Revenda Avenida - Promoção</h1>
+        <form>
+            <p>Modelo do Veículo:
+                <input type="text" id="inModelo" required autofocus>
+            </p>
+            <p>Ano de Fabricação:
+                <input type="number" id="inAno" min="1914" step="1" required autofocus>
+            </p>
+            <p>Preço R$:
+                <input type="number" id="inPreco" required autofocus>
+            </p>
+            <p>
+                <input type="submit" value="Calcular Data Limite e Valor com Desconto">
+            </p>
+            
+        </form>
+        <h3 id="outResp1"></h3>
+        <h3 id="outResp2"></h3>
+        <h3 id="outResp3"></h3>
+        <script src="./js/ex8_2.js"></script>
+    </body>
+</html>
