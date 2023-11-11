@@ -5,5 +5,5 @@ img.alta { float: left; height: 420px; width: 300px; }
 span { margin-left: 70px; }
 select { width: 150px; }
 .detalhes { width: 380px; }
-.ocultar { display: none; }
+.oculta { display: none; }
 .exibe { display: inline; }
