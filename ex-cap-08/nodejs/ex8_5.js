@@ -9,7 +9,7 @@ function titulo(texto) { //recebe, por parâmetro, o texto a ser exibido
 };
 
 function incluir() {
-    titulo("===< Inclusão de Vinhos");
+    titulo("===< Inclusão de Vinhos >===");
 
     const marca = prompt("Marca...: "); //Lê os dados do vinho
     const tipo = prompt("Tipo....: ");
