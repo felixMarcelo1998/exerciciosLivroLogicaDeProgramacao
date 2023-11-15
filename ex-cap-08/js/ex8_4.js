@@ -39,7 +39,7 @@ frm.addEventListener("submit", (e) => {
     } else {
         const num = frm.inBebida.selectedIndex;
         produto = frm.inBebida.options[num].text;
-    }
+    };
 
     const detalhes = frm.inDetalhes.value;  //conteúdo inDetalhes
     itens.push(produto + " (" + detalhes + " )"); // adimciona ao vetor
