@@ -13,7 +13,7 @@ function retornaTracos(nome) {
     };
 
     return acc;
-}
+};
 
 function categorizarAluno(idade) {
     if(idade <= 12) {
@@ -23,6 +23,7 @@ function categorizarAluno(idade) {
     } else {
         return "Adulto";
     };
+
 };
 
 frm.addEventListener("submit", (e) => {
